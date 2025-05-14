@@ -4,7 +4,7 @@
 #  - Disables version-updates
 #  - Defines a group by package name, for security updates for golang dependencies
 
-version: 2
+version: 2.0
 registries:
   example:
     type: npm-registry
