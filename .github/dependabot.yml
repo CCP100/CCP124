@@ -4,17 +4,17 @@
 #  - Disables version-updates.
 #  - Defines a group by package name, for security updates for golang dependencies
 
-version: 2.
+version: 2.0
 registries:
   example:
     type: npm-registry
     url: https://example.com
     token: ${{secrets.NPM_TOKEN}}
 updates:
-  - package-ecosystem: "rubee"
+  - package-ecosystem: "rubeepey"
     directory: "/src/npm-project"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     # For Lodash, ignore all updates
     ignore:
       - dependency-name: "lodash"
