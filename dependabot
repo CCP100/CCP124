@@ -7,5 +7,4 @@ git add package.json
 git commit -m "Add vulnerable lodash"
 git remote add origin https://github.com/yourusername/yourrepo.git
 
-
 git push -u origin main
