@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "npm" # or "pip", "maven", etc.
-    directory: "/"           # location of the manifest file
+  - package-ecosystem: "npm"
+    directory: "/" # location of package.json
     schedule:
-      interval: "weekly"
+      interval: "daily"
