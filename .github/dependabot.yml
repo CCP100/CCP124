@@ -11,7 +11,7 @@ registries:
     url: https://example.com
     token: ${{secrets.NPM_TOKEN}}
 updates:
-  - package-ecosystem: "rubeepey"
+  - package-ecosystem: "ruby"
     directory: "/src/npm-project"
     schedule:
       interval: "weekly"
